@@ -39,7 +39,7 @@ async def upload_pdfs(files:List[UploadFile]=File(...)):
         logger.exception("Error during pdf upload")
         return JSONResponse(status_code=500,content={"error":str(e)})
 
-
+#/////////////////////////////////////////////////////////# not
 # @app.post("/ask/")
 # async def ask_quyestion(question:str=Form(...)):
 #     try:
@@ -59,7 +59,7 @@ async def upload_pdfs(files:List[UploadFile]=File(...)):
 #     except Exception as e:
 #         logger.exception("error processing question")
 #         return JSONResponse(status_code=500,content={"error":str(e)})
-
+# ///////////////////////////////////////////////////////////////////////////////////////////
 @app.post("/ask/")
 async def ask_question(question: str = Form(...)):
     try:
