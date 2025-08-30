@@ -1,10 +1,6 @@
-# 🧠 Modular RAG PDF Chatbot with FastAPI, ChromaDB & Streamlit
+# RAG PDF Chatbot
 
-## 🎥 Watch the Tutorial
-
-[![Watch the video](assets/ragbot2.0.png)](https://youtu.be/TxtK6NUUklQ)
-
-This project is a modular **Retrieval-Augmented Generation (RAG)** application that allows users to upload PDF documents and chat with an AI assistant that answers queries based on the document content. It features a microservice architecture with a decoupled **FastAPI backend** and **Streamlit frontend**, using **ChromaDB** as the vector store and **Groq's LLaMA3 model** as the LLM.
+This project is a modular **Retrieval-Augmented Generation (RAG)** application that allows users to upload PDF documents and chat with an AI assistant that answers queries based on the document content. It features a microservice architecture with a decoupled **FastAPI backend** and **Streamlit frontend**, using **Groq's LLaMA3 model** as the LLM.
 
 ---
 
@@ -40,7 +36,6 @@ ragbot2.0/
 
 - 📄 Upload and parse PDFs
 - 🧠 Embed document chunks with HuggingFace embeddings
-- 💂️ Store embeddings in ChromaDB
 - 💬 Query documents using LLaMA3 via Groq
 - 🌍 Microservice architecture (Streamlit client + FastAPI server)
 
@@ -48,13 +43,7 @@ ragbot2.0/
 
 ## 🎓 How RAG Works
 
-Retrieval-Augmented Generation (RAG) enhances LLMs by injecting external knowledge. Instead of relying solely on pre-trained data, the model retrieves relevant information from a vector database (like ChromaDB) and uses it to generate accurate, context-aware responses.
-
----
-
-## 📊 Application Diagram
-
-📄 [Download the Full Architecture PDF](assets/ragbot2.0.pdf)
+Retrieval-Augmented Generation (RAG) enhances LLMs by injecting external knowledge. Instead of relying solely on pre-trained data, the model retrieves relevant information from a vector database and uses it to generate accurate, context-aware responses.
 
 ---
 
@@ -63,7 +52,7 @@ Retrieval-Augmented Generation (RAG) enhances LLMs by injecting external knowled
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/snsupratim/RagBot-2.0.git
+git clone https://github.com/0somesh/RagBot-2.0.git
 cd RagBot-2.0
 ```
 
@@ -118,10 +107,6 @@ Testable via Postman or directly from the Streamlit frontend.
 
 ---
 
-## ✉️ Contact
-
-For questions or suggestions, open an issue or contact at [snsupratim@gmail.com]
-
 ---
 
-> Happy Building RAGbots! 🚀
+> Happy Building! 🚀
