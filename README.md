@@ -93,7 +93,6 @@ Testable via Postman or directly from the Streamlit frontend.
 ## 🚧 TODO
 
 - [ ] Add authentication for endpoints
-- [ ] Dockerize the project
 - [ ] Add support for more file types
 
 ---
